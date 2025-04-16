@@ -1954,8 +1954,8 @@ dependencies = [
 requires-dist = [
     { name = "decouple", specifier = ">=0.0.7" },
     { name = "fastembed", specifier = ">=0.4.2" },
-    { name = "langchain", specifier = ">=0.3.10" },
-    { name = "langchain-chroma", specifier = ">=0.1.4" },
+    { name = "langchain", specifier = ">=0.3.23" },
+    { name = "langchain-chroma", specifier = ">=0.2.3" },
     { name = "langchain-community", specifier = ">=0.3.10" },
     { name = "langchain-groq", specifier = ">=0.2.1" },
     { name = "langchain-ollama", specifier = ">=0.2.1" },
