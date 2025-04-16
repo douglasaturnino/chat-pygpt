@@ -308,7 +308,7 @@ name = "click"
 version = "8.1.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "colorama", marker = "platform_system == 'Windows'" },
+    { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/96/d3/f04c7bfcf5c1862a2a5b845c6b2b360488cf47af55dfa79c98f6a6bf98b5/click-8.1.7.tar.gz", hash = "sha256:ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de", size = 336121 }
 wheels = [
@@ -1550,6 +1550,16 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/bd/67/16d48e7f02b285b39028aa47f847b3a279c903bc5cd49c8012ea90255317/py_rust_stemmers-0.1.3-cp312-cp312-musllinux_1_2_armv7l.whl", hash = "sha256:fbb9f7933239a57d1d9c0fcdfbe0c5283a081e9e64ddc48ed878783be3d52b2b", size = 567278 },
     { url = "https://files.pythonhosted.org/packages/ad/1c/cb8cc9680f8aa04f96cb5c814887b3bb8d23a2e9abf460ef861ae16bfe50/py_rust_stemmers-0.1.3-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:921803a6f8259f10bf348ac0e32a767c28ab587c9ad5c3b1ee593a4bbbe98d39", size = 488907 },
     { url = "https://files.pythonhosted.org/packages/cd/29/88217de06239e3e526fa6286a11e3662d94acb0be4216c1310301a252dab/py_rust_stemmers-0.1.3-cp312-none-win_amd64.whl", hash = "sha256:576206b540575e81bb84a0f620b7a8529f5e89b0b2ec7d4487f3183789dd5cfd", size = 208980 },
+    { url = "https://files.pythonhosted.org/packages/74/62/ab1492a3d6b7c724443f1f964ff986c5d64a5d97a880dcc4de9475815c00/py_rust_stemmers-0.1.3-cp313-cp313-macosx_10_12_x86_64.whl", hash = "sha256:ab7b6cc01df4013bd2e766ea4c367922bff4612dd36ec4a8aa8125cb384c5dac", size = 286055 },
+    { url = "https://files.pythonhosted.org/packages/f5/dd/35ec95708df96831382df12184ef51b2a3f4db7c5fbed4d0d88e9a83ea49/py_rust_stemmers-0.1.3-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:d39a18641cfa6ff6678ea538d64926c1612eb6ddce9a90a61694f383743c0257", size = 271966 },
+    { url = "https://files.pythonhosted.org/packages/1d/3e/676726ab5fdd9d47ea6c8f0bbceebffec7a5d3837c71fc869ecce68faa2b/py_rust_stemmers-0.1.3-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9ca50cef25d31e6ea200791f28976ee9500ef61fc91101343877b3d38fe3207a", size = 310515 },
+    { url = "https://files.pythonhosted.org/packages/d2/d6/1722299d74959267d6d77fdfde7fc13aeacd0845265694fa65f358ed4a68/py_rust_stemmers-0.1.3-cp313-cp313-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:a5d1a885830c5d94d36f74c0a2017225401f10e64f011e37e7b171ea84c17eb8", size = 315183 },
+    { url = "https://files.pythonhosted.org/packages/bf/5c/279d420618d6dea0b00d40805e08418146c8af3c53db74345abf77f32551/py_rust_stemmers-0.1.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5bb25a58552c058530d69d119fc310dfa27e585dd7a4be6b8f739bd209c29164", size = 324424 },
+    { url = "https://files.pythonhosted.org/packages/7f/85/4e6e62c94c3cad7f2ef861300fb277c8b9cc89b1bcc2aeeb0c67db20a83a/py_rust_stemmers-0.1.3-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:8016d3e7c43b1a93ac06e9c4d68f77c4f8d6beec6984b4e86438406a0b589d48", size = 324779 },
+    { url = "https://files.pythonhosted.org/packages/c9/b9/1079fd911d82f0ca1a34d613c5849ea33dcf373d3a0f18355a0f784420f4/py_rust_stemmers-0.1.3-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:846a16e43d8e12d3178d608f82dcbddc0fd03c4478cde9adc377de58a769b825", size = 487976 },
+    { url = "https://files.pythonhosted.org/packages/80/17/5c52ad2b7cc3dbeb50aa1485372442989cb4e753e6c40476b174f38cb117/py_rust_stemmers-0.1.3-cp313-cp313-musllinux_1_2_armv7l.whl", hash = "sha256:9931ef64c9f2ace96f533092f5161a97bbf867ec5f1a9cb139838a6cf52da4c4", size = 575572 },
+    { url = "https://files.pythonhosted.org/packages/9d/13/b019d8c0e8006702d0845b6bc7f9f0d100051a7936bc35d7f982117852f7/py_rust_stemmers-0.1.3-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:aa1ee56ae903f126598f237b45f316b2704ec29a85ad1d27467bf6a5b27c71b9", size = 493259 },
+    { url = "https://files.pythonhosted.org/packages/79/9f/36a004b3925dc4a61c44968c6be009ba03dd62827f8d1490cd91f9c3c506/py_rust_stemmers-0.1.3-cp313-none-win_amd64.whl", hash = "sha256:2837fc5a60eb0fa2cefc6e41f5fcfb9ff350cd3cdbed25d34a1bc36057d29397", size = 209418 },
 ]
 
 [[package]]
@@ -1804,7 +1814,7 @@ requires-dist = [
     { name = "langchain-groq", specifier = ">=0.2.1" },
     { name = "langchain-ollama", specifier = ">=0.2.1" },
     { name = "pypdf", specifier = ">=5.1.0" },
-    { name = "streamlit", specifier = ">=1.40.2" },
+    { name = "streamlit", specifier = ">=1.44.1" },
 ]
 
 [[package]]
@@ -2011,7 +2021,7 @@ wheels = [
 
 [[package]]
 name = "streamlit"
-version = "1.40.2"
+version = "1.44.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "altair" },
@@ -2027,16 +2037,15 @@ dependencies = [
     { name = "pyarrow" },
     { name = "pydeck" },
     { name = "requests" },
-    { name = "rich" },
     { name = "tenacity" },
     { name = "toml" },
     { name = "tornado" },
     { name = "typing-extensions" },
-    { name = "watchdog", marker = "platform_system != 'Darwin'" },
+    { name = "watchdog", marker = "sys_platform != 'darwin'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b0/e5/2bf2daa9c98658f1474bb64e7de030cbc4182b5f2b2196536efedaef02cb/streamlit-1.40.2.tar.gz", hash = "sha256:0cc131fc9b18065feaff8f6f241c81164ad37d8d9e3a85499a0240aaaf6a6a61", size = 8265763 }
+sdist = { url = "https://files.pythonhosted.org/packages/3e/c0/7286284567e5045f0c587c426d0c41aee5d10c0a2e360e627a83037e9f0c/streamlit-1.44.1.tar.gz", hash = "sha256:c6914ed6d5b76870b461510476806db370f36425ae0e6654d227c988288198d3", size = 9423685 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ae/53/418536f5d0b87bfbe7bbd8c001983c27e9474f82723bd2e529660fd9a534/streamlit-1.40.2-py2.py3-none-any.whl", hash = "sha256:7f6d1379a590f9625a6aee79ca73ceccff03cd2e05a3acbe5fe98915c27a7ffe", size = 8644775 },
+    { url = "https://files.pythonhosted.org/packages/eb/17/fc425e1d4d86e31b2aaf0812a2ef2163763a0670d671720c7c36e8679323/streamlit-1.44.1-py3-none-any.whl", hash = "sha256:9fe355f58b11f4eb71e74f115ce1f38c4c9eaff2733e6bcffb510ac1298a5990", size = 9812242 },
 ]
 
 [[package]]
@@ -2127,7 +2136,7 @@ name = "tqdm"
 version = "4.67.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "colorama", marker = "platform_system == 'Windows'" },
+    { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/a8/4b/29b4ef32e036bb34e4ab51796dd745cdba7ed47ad142a9f4a1eb8e0c744d/tqdm-4.67.1.tar.gz", hash = "sha256:f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2", size = 169737 }
 wheels = [
